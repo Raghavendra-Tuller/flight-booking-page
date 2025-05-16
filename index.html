@@ -1,0 +1,98 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flight Booking</title>
+</head>
+<body>
+    <h1>skyTrip</h1>
+    <h3> "Your Journey Starts here" </h3>
+    <div class="container">
+        <h2>Flight Booking</h2>
+        <form>
+            <label for="from">From</label>
+            <input type="text" id="from" name="from" placeholder="Enter departure city" required>
+
+            <label for="to">To</label>
+            <input type="text" id="to" name="to" placeholder="Enter destination city" required>
+
+            <label for="depart">Departure Date</label>
+            <input type="date" id="depart" name="depart" required>
+
+            <label for="return">Return Date</label>
+            <input type="date" id="return" name="return">
+
+            <label for="passengers">Passengers</label>
+            <select id="passengers" name="passengers" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4+">4+</option>
+            </select>
+
+            <button type="submit">Book Flight</button>
+        </form>
+    </div>
+    <style>
+            body {
+            font-family:Arial, Helvetica, sans-serif;
+            background: #e0f7fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 60px auto;
+            background: #ffffff;
+            padding: 30px 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        h1{
+            text-align: center;
+            color: cornflowerblue;
+        }
+
+        h2 {
+            text-align: center;
+            color: #1e5997;
+        }
+        h3{
+            text-align: center;
+            color: rgb(165, 122, 12);
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #1c4b78;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #aee2f5;
+        }
+</style>
+</body>
+</html>
+
+</body>
+</html>
